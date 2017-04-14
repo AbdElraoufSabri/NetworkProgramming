@@ -5,7 +5,7 @@
 		<Option title="NetworkProgramming"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\SendFiles\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
@@ -130,17 +130,17 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/src/client.cpp">
+		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/client.cpp">
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/src/server.cpp">
+		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/server.cpp">
 			<Option target="Server"/>
 		</Unit>
 		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/src/index.html">
-			<Option virtualFolder="CMake Files\src\"/>
+		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/index.html">
+			<Option virtualFolder="CMake Files\src\SendFiles\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

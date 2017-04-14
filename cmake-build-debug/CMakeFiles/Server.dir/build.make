@@ -57,38 +57,38 @@ include CMakeFiles/Server.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Server.dir/flags.make
 
-CMakeFiles/Server.dir/src/server.cpp.o: CMakeFiles/Server.dir/flags.make
-CMakeFiles/Server.dir/src/server.cpp.o: ../src/server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/src/server.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server.cpp.o -c /home/abdelraouf/CLionProjects/NetworkProgramming/src/server.cpp
+CMakeFiles/Server.dir/src/SendFiles/server.cpp.o: CMakeFiles/Server.dir/flags.make
+CMakeFiles/Server.dir/src/SendFiles/server.cpp.o: ../src/SendFiles/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/src/SendFiles/server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/SendFiles/server.cpp.o -c /home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/server.cpp
 
-CMakeFiles/Server.dir/src/server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdelraouf/CLionProjects/NetworkProgramming/src/server.cpp > CMakeFiles/Server.dir/src/server.cpp.i
+CMakeFiles/Server.dir/src/SendFiles/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/SendFiles/server.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/server.cpp > CMakeFiles/Server.dir/src/SendFiles/server.cpp.i
 
-CMakeFiles/Server.dir/src/server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdelraouf/CLionProjects/NetworkProgramming/src/server.cpp -o CMakeFiles/Server.dir/src/server.cpp.s
+CMakeFiles/Server.dir/src/SendFiles/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/SendFiles/server.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/server.cpp -o CMakeFiles/Server.dir/src/SendFiles/server.cpp.s
 
-CMakeFiles/Server.dir/src/server.cpp.o.requires:
+CMakeFiles/Server.dir/src/SendFiles/server.cpp.o.requires:
 
-.PHONY : CMakeFiles/Server.dir/src/server.cpp.o.requires
+.PHONY : CMakeFiles/Server.dir/src/SendFiles/server.cpp.o.requires
 
-CMakeFiles/Server.dir/src/server.cpp.o.provides: CMakeFiles/Server.dir/src/server.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server.cpp.o.provides.build
-.PHONY : CMakeFiles/Server.dir/src/server.cpp.o.provides
+CMakeFiles/Server.dir/src/SendFiles/server.cpp.o.provides: CMakeFiles/Server.dir/src/SendFiles/server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/SendFiles/server.cpp.o.provides.build
+.PHONY : CMakeFiles/Server.dir/src/SendFiles/server.cpp.o.provides
 
-CMakeFiles/Server.dir/src/server.cpp.o.provides.build: CMakeFiles/Server.dir/src/server.cpp.o
+CMakeFiles/Server.dir/src/SendFiles/server.cpp.o.provides.build: CMakeFiles/Server.dir/src/SendFiles/server.cpp.o
 
 
 # Object files for target Server
 Server_OBJECTS = \
-"CMakeFiles/Server.dir/src/server.cpp.o"
+"CMakeFiles/Server.dir/src/SendFiles/server.cpp.o"
 
 # External object files for target Server
 Server_EXTERNAL_OBJECTS =
 
-Server: CMakeFiles/Server.dir/src/server.cpp.o
+Server: CMakeFiles/Server.dir/src/SendFiles/server.cpp.o
 Server: CMakeFiles/Server.dir/build.make
 Server: CMakeFiles/Server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Server"
@@ -99,7 +99,7 @@ CMakeFiles/Server.dir/build: Server
 
 .PHONY : CMakeFiles/Server.dir/build
 
-CMakeFiles/Server.dir/requires: CMakeFiles/Server.dir/src/server.cpp.o.requires
+CMakeFiles/Server.dir/requires: CMakeFiles/Server.dir/src/SendFiles/server.cpp.o.requires
 
 .PHONY : CMakeFiles/Server.dir/requires
 

@@ -57,38 +57,38 @@ include CMakeFiles/Client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Client.dir/flags.make
 
-CMakeFiles/Client.dir/src/client.cpp.o: CMakeFiles/Client.dir/flags.make
-CMakeFiles/Client.dir/src/client.cpp.o: ../src/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Client.dir/src/client.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client.cpp.o -c /home/abdelraouf/CLionProjects/NetworkProgramming/src/client.cpp
+CMakeFiles/Client.dir/src/SendFiles/client.cpp.o: CMakeFiles/Client.dir/flags.make
+CMakeFiles/Client.dir/src/SendFiles/client.cpp.o: ../src/SendFiles/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Client.dir/src/SendFiles/client.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/SendFiles/client.cpp.o -c /home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/client.cpp
 
-CMakeFiles/Client.dir/src/client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdelraouf/CLionProjects/NetworkProgramming/src/client.cpp > CMakeFiles/Client.dir/src/client.cpp.i
+CMakeFiles/Client.dir/src/SendFiles/client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/SendFiles/client.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/client.cpp > CMakeFiles/Client.dir/src/SendFiles/client.cpp.i
 
-CMakeFiles/Client.dir/src/client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdelraouf/CLionProjects/NetworkProgramming/src/client.cpp -o CMakeFiles/Client.dir/src/client.cpp.s
+CMakeFiles/Client.dir/src/SendFiles/client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/SendFiles/client.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/client.cpp -o CMakeFiles/Client.dir/src/SendFiles/client.cpp.s
 
-CMakeFiles/Client.dir/src/client.cpp.o.requires:
+CMakeFiles/Client.dir/src/SendFiles/client.cpp.o.requires:
 
-.PHONY : CMakeFiles/Client.dir/src/client.cpp.o.requires
+.PHONY : CMakeFiles/Client.dir/src/SendFiles/client.cpp.o.requires
 
-CMakeFiles/Client.dir/src/client.cpp.o.provides: CMakeFiles/Client.dir/src/client.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/client.cpp.o.provides.build
-.PHONY : CMakeFiles/Client.dir/src/client.cpp.o.provides
+CMakeFiles/Client.dir/src/SendFiles/client.cpp.o.provides: CMakeFiles/Client.dir/src/SendFiles/client.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/SendFiles/client.cpp.o.provides.build
+.PHONY : CMakeFiles/Client.dir/src/SendFiles/client.cpp.o.provides
 
-CMakeFiles/Client.dir/src/client.cpp.o.provides.build: CMakeFiles/Client.dir/src/client.cpp.o
+CMakeFiles/Client.dir/src/SendFiles/client.cpp.o.provides.build: CMakeFiles/Client.dir/src/SendFiles/client.cpp.o
 
 
 # Object files for target Client
 Client_OBJECTS = \
-"CMakeFiles/Client.dir/src/client.cpp.o"
+"CMakeFiles/Client.dir/src/SendFiles/client.cpp.o"
 
 # External object files for target Client
 Client_EXTERNAL_OBJECTS =
 
-Client: CMakeFiles/Client.dir/src/client.cpp.o
+Client: CMakeFiles/Client.dir/src/SendFiles/client.cpp.o
 Client: CMakeFiles/Client.dir/build.make
 Client: CMakeFiles/Client.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Client"
@@ -99,7 +99,7 @@ CMakeFiles/Client.dir/build: Client
 
 .PHONY : CMakeFiles/Client.dir/build
 
-CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/src/client.cpp.o.requires
+CMakeFiles/Client.dir/requires: CMakeFiles/Client.dir/src/SendFiles/client.cpp.o.requires
 
 .PHONY : CMakeFiles/Client.dir/requires
 

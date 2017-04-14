@@ -136,59 +136,59 @@ Client/fast:
 	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/build
 .PHONY : Client/fast
 
-src/client.o: src/client.cpp.o
+src/SendFiles/client.o: src/SendFiles/client.cpp.o
 
-.PHONY : src/client.o
-
-# target to build an object file
-src/client.cpp.o:
-	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/client.cpp.o
-.PHONY : src/client.cpp.o
-
-src/client.i: src/client.cpp.i
-
-.PHONY : src/client.i
-
-# target to preprocess a source file
-src/client.cpp.i:
-	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/client.cpp.i
-.PHONY : src/client.cpp.i
-
-src/client.s: src/client.cpp.s
-
-.PHONY : src/client.s
-
-# target to generate assembly for a file
-src/client.cpp.s:
-	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/client.cpp.s
-.PHONY : src/client.cpp.s
-
-src/server.o: src/server.cpp.o
-
-.PHONY : src/server.o
+.PHONY : src/SendFiles/client.o
 
 # target to build an object file
-src/server.cpp.o:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server.cpp.o
-.PHONY : src/server.cpp.o
+src/SendFiles/client.cpp.o:
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/SendFiles/client.cpp.o
+.PHONY : src/SendFiles/client.cpp.o
 
-src/server.i: src/server.cpp.i
+src/SendFiles/client.i: src/SendFiles/client.cpp.i
 
-.PHONY : src/server.i
+.PHONY : src/SendFiles/client.i
 
 # target to preprocess a source file
-src/server.cpp.i:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server.cpp.i
-.PHONY : src/server.cpp.i
+src/SendFiles/client.cpp.i:
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/SendFiles/client.cpp.i
+.PHONY : src/SendFiles/client.cpp.i
 
-src/server.s: src/server.cpp.s
+src/SendFiles/client.s: src/SendFiles/client.cpp.s
 
-.PHONY : src/server.s
+.PHONY : src/SendFiles/client.s
 
 # target to generate assembly for a file
-src/server.cpp.s:
-	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/server.cpp.s
-.PHONY : src/server.cpp.s
+src/SendFiles/client.cpp.s:
+	$(MAKE) -f CMakeFiles/Client.dir/build.make CMakeFiles/Client.dir/src/SendFiles/client.cpp.s
+.PHONY : src/SendFiles/client.cpp.s
+
+src/SendFiles/server.o: src/SendFiles/server.cpp.o
+
+.PHONY : src/SendFiles/server.o
+
+# target to build an object file
+src/SendFiles/server.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/SendFiles/server.cpp.o
+.PHONY : src/SendFiles/server.cpp.o
+
+src/SendFiles/server.i: src/SendFiles/server.cpp.i
+
+.PHONY : src/SendFiles/server.i
+
+# target to preprocess a source file
+src/SendFiles/server.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/SendFiles/server.cpp.i
+.PHONY : src/SendFiles/server.cpp.i
+
+src/SendFiles/server.s: src/SendFiles/server.cpp.s
+
+.PHONY : src/SendFiles/server.s
+
+# target to generate assembly for a file
+src/SendFiles/server.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/SendFiles/server.cpp.s
+.PHONY : src/SendFiles/server.cpp.s
 
 # Help Target
 help:
@@ -200,12 +200,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Server"
 	@echo "... Client"
-	@echo "... src/client.o"
-	@echo "... src/client.i"
-	@echo "... src/client.s"
-	@echo "... src/server.o"
-	@echo "... src/server.i"
-	@echo "... src/server.s"
+	@echo "... src/SendFiles/client.o"
+	@echo "... src/SendFiles/client.i"
+	@echo "... src/SendFiles/client.s"
+	@echo "... src/SendFiles/server.o"
+	@echo "... src/SendFiles/server.i"
+	@echo "... src/SendFiles/server.s"
 .PHONY : help
 
 

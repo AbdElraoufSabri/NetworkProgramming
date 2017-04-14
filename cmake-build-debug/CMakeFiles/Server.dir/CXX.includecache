@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/abdelraouf/CLionProjects/NetworkProgramming/src/server.cpp
+/home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/server.cpp
 unp.h
-/home/abdelraouf/CLionProjects/NetworkProgramming/src/unp.h
+/home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/unp.h
 
-/home/abdelraouf/CLionProjects/NetworkProgramming/src/unp.h
+/home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/unp.h
 iostream
 -
 stdio.h
