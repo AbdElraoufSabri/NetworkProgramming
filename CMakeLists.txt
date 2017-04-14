@@ -8,3 +8,5 @@ set(Client src/client.cpp)
 set(Server src/server.cpp)
 add_executable(Client ${Client})
 add_executable(Server ${Server})
+
+configure_file(src/index.html index.html)
