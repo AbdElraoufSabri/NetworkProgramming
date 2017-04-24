@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/Server.dir/src/SendFiles/server.cpp.o  -o Server 
+/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/Server.dir/src/SendFiles/server.cpp.o CMakeFiles/Server.dir/src/MultiChat/server.cpp.o  -o Server 

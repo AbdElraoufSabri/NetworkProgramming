@@ -1,4 +1,6 @@
-/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles/Server.dir
-/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles/Client.dir
+/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles/MultiChatServer.dir
+/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles/SendFileServer.dir
+/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles/MultiChatClient.dir
+/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles/SendFileClient.dir

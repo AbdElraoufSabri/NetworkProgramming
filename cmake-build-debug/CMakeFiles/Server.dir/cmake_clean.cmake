@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Server.dir/src/SendFiles/server.cpp.o"
+  "CMakeFiles/Server.dir/src/MultiChat/server.cpp.o"
   "Server.pdb"
   "Server"
 )

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/abdelraouf/CLionProjects/NetworkProgramming/src/MultiChat/client.cpp" "/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles/Client.dir/src/MultiChat/client.cpp.o"
   "/home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/client.cpp" "/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/CMakeFiles/Client.dir/src/SendFiles/client.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

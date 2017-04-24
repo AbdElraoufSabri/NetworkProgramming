@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/NetworkProgramming.dir/src/server/server.cpp.o  -o NetworkProgramming 

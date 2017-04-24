@@ -3,11 +3,6 @@
 
 using namespace std;
 
-void error(const char *msg)
-{
-    perror(msg);
-    exit(0);
-}
 
 int main (){
     int clientSocket = socket(AF_INET, SOCK_STREAM, 0);

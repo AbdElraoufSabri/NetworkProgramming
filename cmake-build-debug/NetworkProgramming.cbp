@@ -5,23 +5,13 @@
 		<Option title="NetworkProgramming"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\SendFiles\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\res\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -37,110 +27,218 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Server">
-				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
+			<Target title="edit_cache">
 				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Server/fast">
-				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
+			<Target title="MultiChatServer">
+				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/MultiChatServer" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiChatServer"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Client">
-				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
+			<Target title="MultiChatServer/fast">
+				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/MultiChatServer" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiChatServer/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Client/fast">
-				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
+			<Target title="SendFileServer">
+				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/SendFileServer" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 SendFileServer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SendFileServer/fast">
+				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/SendFileServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 SendFileServer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiChatClient">
+				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/MultiChatClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiChatClient"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiChatClient/fast">
+				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/MultiChatClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultiChatClient/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SendFileClient">
+				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/SendFileClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 SendFileClient"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SendFileClient/fast">
+				<Option output="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/SendFileClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 SendFileClient/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdelraouf/CLionProjects/NetworkProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/src/MultiChat/client.cpp">
+			<Option target="MultiChatClient"/>
+		</Unit>
+		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/src/MultiChat/server.cpp">
+			<Option target="MultiChatServer"/>
+		</Unit>
 		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/client.cpp">
-			<Option target="Client"/>
+			<Option target="SendFileClient"/>
 		</Unit>
 		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/server.cpp">
-			<Option target="Server"/>
+			<Option target="SendFileServer"/>
 		</Unit>
 		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/src/SendFiles/index.html">
-			<Option virtualFolder="CMake Files\src\SendFiles\"/>
+		<Unit filename="/home/abdelraouf/CLionProjects/NetworkProgramming/res/index.html">
+			<Option virtualFolder="CMake Files\res\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
