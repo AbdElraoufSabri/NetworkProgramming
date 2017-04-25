@@ -3,4 +3,4 @@
 ## Contents
 
 1. send files
-2. coming soon
+2. Multi chat
